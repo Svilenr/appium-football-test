@@ -1,0 +1,6 @@
+utils/EventData.class
+utils/PageActions.class
+tests/SimpleAppiumTest.class
+pages/LivePage.class
+base/BaseTest.class
+pages/HomePage.class
