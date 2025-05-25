@@ -1,6 +1,9 @@
 /Users/sbogd/Documents/Appium+Java/src/test/java/pages/HomePage.java
-/Users/sbogd/Documents/Appium+Java/src/test/java/tests/SimpleAppiumTest.java
+/Users/sbogd/Documents/Appium+Java/src/test/java/utils/HelperModules.java
 /Users/sbogd/Documents/Appium+Java/src/test/java/base/BaseTest.java
 /Users/sbogd/Documents/Appium+Java/src/test/java/utils/PageActions.java
+/Users/sbogd/Documents/Appium+Java/src/test/java/utils/CustomTestNGReporter.java
 /Users/sbogd/Documents/Appium+Java/src/test/java/utils/EventData.java
 /Users/sbogd/Documents/Appium+Java/src/test/java/pages/LivePage.java
+/Users/sbogd/Documents/Appium+Java/src/test/java/tests/FootballLiveEventsSortingAndFiltering.java
+/Users/sbogd/Documents/Appium+Java/src/test/java/utils/ConsoleAndFilePrinter.java

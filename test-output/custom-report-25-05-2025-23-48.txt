@@ -1,0 +1,20 @@
+------
+Football has 59 events.
+------
+Tennis has 11 events.
+------
+Table Tennis has 11 events.
+------
+Baseball has 12 events.
+------ Events with at least one odd between 1.50 and 2.50 ------
+---------------------------------------------------------------
+------ Events sorted by sum of odds (descending) ------
+119.31 | San Lorenzo 0 - 1 CA Platense | Market: Match Result | Odds: [110.0, 8.25, 1.06]
+82.56 | New York City FC 2 - 1 Chicago Fire | Market: Match Result | Odds: [1.06, 8.5, 73.0]
+79.53 | FH Hafnarfjordur 2 - 0 Breidablik | Market: Match Result | Odds: [1.03, 11.5, 67.0]
+------------------------------------------------------
+------ Events with Equal Scores (e.g. 1:1, 2:2, ...) ------
+-----------------------------------------------------------
+Screenshot saved: /Users/sbogd/Documents/Appium+Java/screenshots/football_live_events_25-05-2025-23:48.png
+Test finished successfully!
+[PASSED] tests.FootballLiveEventsSortingAndFiltering.openMenuAndGoToFootballLive (21565 ms)

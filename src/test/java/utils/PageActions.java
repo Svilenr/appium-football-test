@@ -121,6 +121,8 @@ public class PageActions {
                     try {
                         int count = Integer.parseInt(countStr);
                         if (count > 10) {
+                            // ADD THIS LINE:
+                            System.out.println("------");
                             System.out.println(sport + " has " + count + " events.");
                         }
                     } catch (NumberFormatException e) {

@@ -1,0 +1,2 @@
+Custom Test Report:
+[PASSED] tests.FootballLiveEventsSortingAndFiltering.openMenuAndGoToFootballLive (21565 ms)

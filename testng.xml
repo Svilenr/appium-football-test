@@ -1,8 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="SportEmpire Suite">
-    <test name="Basic Appium Test">
-        <classes>
-            <class name="tests.SimpleAppiumTest"/>
-        </classes>
-    </test>
+<suite name="MySuite">
+  <listeners>
+    <listener class-name="utils.CustomTestNGReporter"/>
+  </listeners>
+  <test name="MyTest">
+    <classes>
+      <class name="tests.FootballLiveEventsSortingAndFiltering"/>
+    </classes>
+  </test>
 </suite>
