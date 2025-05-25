@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.453" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.726" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/sbogd/Documents/Appium+Java/target/surefire/surefirebooter-20250525235855998_3.jar /Users/sbogd/Documents/Appium+Java/target/surefire 2025-05-25T23-58-55_959-jvmRun1 surefire-20250525235855998_1tmp surefire_0-20250525235855998_2tmp"/>
+    <property name="sun.java.command" value="/Users/sbogd/Documents/Appium+Java/target/surefire/surefirebooter-20250526001015147_3.jar /Users/sbogd/Documents/Appium+Java/target/surefire 2025-05-26T00-10-15_106-jvmRun1 surefire-20250526001015147_1tmp surefire_0-20250526001015147_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/sbogd/Documents/Appium+Java/target/test-classes:/Users/sbogd/Documents/Appium+Java/target/classes:/Users/sbogd/.m2/repository/io/appium/java-client/9.0.0/java-client-9.0.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-api/4.33.0/selenium-api-4.33.0.jar:/Users/sbogd/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-support/4.33.0/selenium-support-4.33.0.jar:/Users/sbogd/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/sbogd/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/sbogd/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/sbogd/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sbogd/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/sbogd/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/sbogd/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-json/4.33.0/selenium-json-4.33.0.jar:/Users/sbogd/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.0/selenium-java-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.0/selenium-chrome-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.0/selenium-chromium-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.0/selenium-manager-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.18.0/selenium-devtools-v119-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.0/selenium-devtools-v120-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.0/selenium-devtools-v121-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.0/selenium-devtools-v85-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.0/selenium-edge-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.0/selenium-firefox-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.0/selenium-http-4.18.0.jar:/Users/sbogd/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.0/selenium-ie-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.0/selenium-remote-driver-4.18.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/sbogd/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.0/selenium-os-4.18.0.jar:/Users/sbogd/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sbogd/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.0/selenium-safari-driver-4.18.0.jar:/Users/sbogd/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/sbogd/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sbogd/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/sbogd/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/sbogd/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/sbogd/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/sbogd/Documents/Appium+Java/target/surefire/surefirebooter-20250525235855998_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sbogd/Documents/Appium+Java/target/surefire/surefirebooter-20250526001015147_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -59,24 +59,28 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="openMenuAndGoToFootballLive" classname="tests.FootballLiveEventsSortingAndFiltering" time="33.945">
-    <system-out><![CDATA[------ Events with at least one odd between 1.50 and 2.50 ------
-Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.5, 1.95, 6.0]
-Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.05, 2.65]
+  <testcase name="openMenuAndGoToFootballLive" classname="tests.FootballLiveEventsSortingAndFiltering" time="22.938">
+    <system-out><![CDATA[------
+Football has 45 events.
+------ Events with at least one odd between 1.50 and 2.50 ------
+Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.55, 1.95, 5.75]
+Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.0, 2.8]
 ---------------------------------------------------------------
 ------ Events sorted by sum of odds (descending) ------
-26.84 | Gimnasia Jujuy 1 - 1 CA San Telmo | Market: Match Result | Odds: [8.75, 1.09, 17.0]
-10.45 | Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.5, 1.95, 6.0]
-9.10 | Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.05, 2.65]
+21.75 | Racing de Cordoba 1 - 0 Tristan Suarez | Market: Match Result | Odds: [1.25, 4.5, 16.0]
+15.24 | Argentino De Merlo 1 - 0 CSD Flandria | Market: Match Result | Odds: [1.34, 3.9, 10.0]
+14.92 | Ituano FC 0 - 0 Floresta EC | Market: Match Result | Odds: [4.6, 1.32, 9.0]
+10.25 | Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.55, 1.95, 5.75]
+9.20 | Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.0, 2.8]
 ------------------------------------------------------
 ------ Events with Equal Scores (e.g. 1:1, 2:2, ...) ------
-Gimnasia Jujuy 1 - 1 CA San Telmo | Market: Match Result | Odds: [8.75, 1.09, 17.0]
-Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.5, 1.95, 6.0]
-Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.05, 2.65]
+Ituano FC 0 - 0 Floresta EC | Market: Match Result | Odds: [4.6, 1.32, 9.0]
+Club Atletico Mitre 0 - 0 Deportivo Moron | Market: Match Result | Odds: [2.55, 1.95, 5.75]
+Central Norte 0 - 0 Defensores De Belgrano | Market: Match Result | Odds: [4.4, 2.0, 2.8]
 -----------------------------------------------------------
-Screenshot saved: /Users/sbogd/Documents/Appium+Java/screenshots/football_live_events_25-05-2025-23:59.png
+Screenshot saved: /Users/sbogd/Documents/Appium+Java/screenshots/football_live_events_26-05-2025-00:10.png
 Test finished successfully!
-[PASSED] tests.FootballLiveEventsSortingAndFiltering.openMenuAndGoToFootballLive (33944 ms)
+[PASSED] tests.FootballLiveEventsSortingAndFiltering.openMenuAndGoToFootballLive (22937 ms)
 ]]></system-out>
   </testcase>
 </testsuite>

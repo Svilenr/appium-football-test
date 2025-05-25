@@ -1,5 +1,8 @@
 # Ignore all target folders anywhere in the project
 target/
+target/surefire-reports/
 
 # Ignore all screenshots folders anywhere in the project
 screenshots/
+
+test-output/
