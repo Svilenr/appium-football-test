@@ -1,1 +1,5 @@
-**/screenshots/
+# Ignore all target folders anywhere in the project
+target/
+
+# Ignore all screenshots folders anywhere in the project
+screenshots/
